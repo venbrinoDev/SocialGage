@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "327729585330",
+    "firebase_url": "https://socialgage-d819c.firebaseio.com",
+    "project_id": "socialgage-d819c",
+    "storage_bucket": "socialgage-d819c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327729585330:android:a49c5aed0d77f6b95ffdab",
+        "android_client_info": {
+          "package_name": "com.company.socialgage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327729585330-72fqa6qh8sj9gef6bteofiv9veojqrl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.socialgage",
+            "certificate_hash": "bdc7c1cf64f681be3d62d542b5d2f075eafcdc18"
+          }
+        },
+        {
+          "client_id": "327729585330-j8u284uj8p145dmq88r160icn18ik50k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-6bZuve3jCUH4l6G8OYWGVzPwWpOJbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327729585330-j8u284uj8p145dmq88r160icn18ik50k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

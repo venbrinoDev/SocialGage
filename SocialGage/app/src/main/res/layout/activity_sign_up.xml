@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/down"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    tools:context=".LoginScreen">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:textSize="30dp"
+        android:id="@+id/texting"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"
+        android:text="Sign Up into \nSocial Gage"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+    <ImageButton
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:id="@+id/help"
+        android:src="@drawable/ic_help_black"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageButton>
+
+    <ImageButton
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_arrow_back"
+        android:id="@+id/back"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageButton>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/texting"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:hint="Enter your gmail"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:layout_width="300dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/emailEdt"
+                android:textSize="18dp"
+                android:imeOptions="actionDone"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="5dp"
+                android:padding="6dp"
+                android:textAlignment="textStart"
+                android:text=""
+                android:background="@drawable/round_button"
+                android:layout_height="40dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true"
+            android:hint="Password"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:layout_width="250dp"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/passwordEdt"
+                android:textSize="18dp"
+                android:maxLines="1"
+                android:imeOptions="actionSend"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="5dp"
+                android:padding="5dp"
+                android:textAlignment="textStart"
+                android:text=""
+                android:background="@drawable/round_button"
+                android:layout_height="40dp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/countries"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_button"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="40dp"
+            ></com.toptoche.searchablespinnerlibrary.SearchableSpinner>
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"></ProgressBar>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/signuP_button"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="25dp"
+                android:text="Sign Up"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_arrow_forward"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/alreadyUser"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Already a user? "
+                android:textAlignment="center"
+                android:textSize="18dp"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Login in"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

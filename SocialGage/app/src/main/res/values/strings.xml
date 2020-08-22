@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Social Gage</string>
+    <string name="client_id">2810649842502517</string>
+    <string name="redirect_url">https://instagram.com/</string>
+    <string name="base_url">https://api.instagram.com/</string>
+    <string name="get_user_info_url">https://api.instagram.com/v1/users/self/?access_token=</string>
+    <string name="client_secret_id">9815d24d7315e6dfdba949a0396822f3</string>
+
+
+</resources>
